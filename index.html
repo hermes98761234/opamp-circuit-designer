@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Op-amp Circuit Designer: amplifiers, active filters and Schmitt triggers</title>
+    <meta name="description" content="Free op-amp circuit designer: inverting, non-inverting, difference, instrumentation, summing, integrator, Sallen-Key and MFB filters, Schmitt trigger. E-series part selection, GBW-aware frequency response, schematic. Runs in your browser." />
+    <meta name="keywords" content="op-amp calculator, operational amplifier design, inverting amplifier, Sallen-Key filter calculator, MFB filter, instrumentation amplifier, Schmitt trigger hysteresis, E96 resistor, gain bandwidth, active filter" />
+    <meta name="author" content="Volodymyr Kopytsia" />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#f4f5f7" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0f1115" media="(prefers-color-scheme: dark)" />
+    <meta name="color-scheme" content="light dark" />
+    <link rel="canonical" href="https://hermes98761234.github.io/opamp-circuit-designer/" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="icon" type="image/png" sizes="192x192" href="./icon-192.png" />
+    <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+    <link rel="manifest" href="./manifest.webmanifest" />
+    <meta name="apple-mobile-web-app-title" content="Op-amp" />
+
+    <!-- Open Graph / Facebook / Telegram / Slack -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Op-amp Circuit Designer" />
+    <meta property="og:url" content="https://hermes98761234.github.io/opamp-circuit-designer/" />
+    <meta property="og:title" content="Op-amp Circuit Designer" />
+    <meta property="og:description" content="Pick a circuit, enter your target, get standard E-series parts, a schematic and the frequency response with your op-amp's GBW." />
+    <meta property="og:image" content="https://hermes98761234.github.io/opamp-circuit-designer/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="An op-amp symbol with the headline: design op-amp circuits with real parts." />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="uk_UA" />
+
+    <!-- Twitter / X -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Op-amp Circuit Designer" />
+    <meta name="twitter:description" content="Amplifiers, active filters and comparators with E-series parts, schematics and frequency response. Runs in your browser." />
+    <meta name="twitter:image" content="https://hermes98761234.github.io/opamp-circuit-designer/og-image.png" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Op-amp Circuit Designer",
+        "url": "https://hermes98761234.github.io/opamp-circuit-designer/",
+        "description": "Designs op-amp amplifiers, Sallen-Key and multiple-feedback filters and Schmitt triggers with standard E-series parts, a schematic and a GBW-aware frequency response.",
+        "applicationCategory": "EngineeringApplication",
+        "operatingSystem": "Any",
+        "browserRequirements": "Requires JavaScript",
+        "inLanguage": ["en", "uk"],
+        "isAccessibleForFree": true,
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+        "author": { "@type": "Person", "name": "Volodymyr Kopytsia" }
+      }
+    </script>
+  </head>
+  <body>
+    <noscript>This tool needs JavaScript.</noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
